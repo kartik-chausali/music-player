@@ -4,7 +4,6 @@ import { useState } from 'react'
 import './App.css'
 import Music, { Song } from './components/Music'
 import Playing from './components/Playing'
-import SideBar from './components/Side'
 
 function App() {
  const [currentSong, setCurrentSong] = useState<Song | null>(null);
