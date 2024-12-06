@@ -124,7 +124,7 @@ useEffect(()=>{
             onDragStart={() => handleDragStart(song.id)}
             onDragOver={handleDragOver}
             onDrop={() => handleDrop(song.id)}
-            onClick={() => handleClick(song)} className={`relative overflow-hidden transition-all  border-hidden text-red px-3  duration-500 border border-transparent   group  ${clickedRowId == song.id ? "bg-hov-red text-side-white pointer-events-none" : "hover:shadow-hov-red hover:bg-hov-red hover:text-white"}`}>
+            onClick={() => handleClick(song)} className={`relative overflow-hidden transition-all  border-hidden text-red px-3  duration-500 border border-transparent   group  ${clickedRowId == song.id ? "bg-hov-red text-side-white pointer-events-none" : "hover:shadow-side-red hover:bg-side-red hover:text-white"}`}>
 
             <TableCell className=" text-xs md:text-md md:font-medium relative z-10 flex items-center space-x-3">
             <div className="w-3 h-fit bg-red-500 mr-3 group-hover:w-1 transition-all duration-300"></div>

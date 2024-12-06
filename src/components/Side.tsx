@@ -66,7 +66,7 @@ export default function SideBar(){
             {items.map((item) => (
               <SidebarMenuItem key={item.title}>
                 <SidebarMenuButton asChild>
-                  <a href={item.url} className="text-red hover:before:bg-redborder-red-500 relative  overflow-hidden  px-3  shadow-2xl transition-all before:absolute before:bottom-0 before:left-0 before:top-0 before:z-0 before:h-full before:w-0 before:bg-red-500 before:transition-all before:duration-500 hover:text-white hover:shadow-hov-red hover:bg-hov-red hover:before:left-0 hover:before:w-1 ">
+                  <a href={item.url} className="text-red hover:before:bg-redborder-red-500 relative  overflow-hidden  px-3  shadow-2xl transition-all before:absolute before:bottom-0 before:left-0 before:top-0 before:z-0 before:h-full before:w-0 before:bg-red-500 before:transition-all before:duration-500 hover:text-white hover:shadow-side-red hover:bg-side-red hover:before:left-0 hover:before:w-1 ">
                     <img src={item.icon} className='h-5 w-5'/>
                     <span className='text-side-white'>{item.title}</span>
                   </a>
@@ -87,7 +87,7 @@ export default function SideBar(){
                     <SidebarMenu>
                         <SidebarMenuItem>
                             <SidebarMenuButton asChild>
-                                <a href='#' className='text-red hover:before:bg-redborder-red-500 relative  overflow-hidden  px-3  shadow-2xl transition-all before:absolute before:bottom-0 before:left-0 before:top-0 before:z-0 before:h-full before:w-0 before:bg-red-500 before:transition-all before:duration-500 hover:text-white hover:shadow-hov-red hover:bg-hov-red hover:before:left-0 hover:before:w-1'>
+                                <a href='#' className='text-red hover:before:bg-redborder-red-500 relative  overflow-hidden  px-3  shadow-2xl transition-all before:absolute before:bottom-0 before:left-0 before:top-0 before:z-0 before:h-full before:w-0 before:bg-red-500 before:transition-all before:duration-500 hover:text-white hover:shadow-side-red hover:bg-side-red hover:before:left-0 hover:before:w-1'>
                                     <img src={Settings} className='h-5 w-5'/>
                                     <span className='text-side-white'>Settings</span>
                                 </a>
@@ -96,7 +96,7 @@ export default function SideBar(){
 
                         <SidebarMenuItem>
                             <SidebarMenuButton asChild>
-                                <a href='#' className='text-red hover:before:bg-redborder-red-500 relative  overflow-hidden  px-3  shadow-2xl transition-all before:absolute before:bottom-0 before:left-0 before:top-0 before:z-0 before:h-full before:w-0 before:bg-red-500 before:transition-all before:duration-500 hover:text-white hover:shadow-hov-red hover:bg-hov-red hover:before:left-0 hover:before:w-1'>
+                                <a href='#' className='text-red hover:before:bg-redborder-red-500 relative  overflow-hidden  px-3  shadow-2xl transition-all before:absolute before:bottom-0 before:left-0 before:top-0 before:z-0 before:h-full before:w-0 before:bg-red-500 before:transition-all before:duration-500 hover:text-white hover:shadow-side-red hover:bg-side-red hover:before:left-0 hover:before:w-1'>
                                     <div className='relative flex items-center'>
                                     <img src={Log} className='h-5 w-4'/>
                                     <img src={ Arrow} className='h-4 w-4 absolute left-2'/>

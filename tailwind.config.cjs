@@ -1,5 +1,5 @@
 /** @type {import('tailwindcss').Config} */
-export default {
+module.exports= {
     darkMode: ["class"],
     content: [
     "./index.html",
@@ -19,7 +19,7 @@ export default {
 			"icon-red":"#F94544",
 			'side-miniHeading':"#CFC5C5",
 			"side-white":"#F6F6F6",
-			"hov-red":"#520000",
+			"side-red":"#520000",
 			"search-bar":"#2C0000",
 			"menu-white":"#E5DEDD",
 			"playing-red":"#6B0000",
