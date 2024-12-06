@@ -9,7 +9,7 @@ import { useState, useRef, useEffect } from 'react'
 import {PiPause} from 'react-icons/pi'
 
 
-export default function Playing({name , file, cover, time}:{name:string, file:string, cover:string, time:string}){
+export default function Playing({name , file, cover}:{name:string, file:string, cover:string, time:string}){
 
   const [isPlaying, setIsPlaying] = useState(true); // Controls play/pause
   const [progress, setProgress] = useState(0); // Current progress of the song
