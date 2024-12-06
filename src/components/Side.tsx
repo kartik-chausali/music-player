@@ -7,7 +7,7 @@ import Settings from '../assets/settings.svg'
 import Log from '../assets/log.svg'
 import Trends from '../assets/trends.svg'
 import Arrow from '../assets/arrow.svg'
-import Logo from '../assets/Logo.svg'
+import Logo from '../assets/logo.svg'
 
 import {
   Sidebar,
